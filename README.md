@@ -8,16 +8,18 @@
 
 <br/>
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<table>
+<tr>
+<td valign="top" width="60%">
 
 ```python
 class DivyaDharsan:
     def __init__(self):
-        self.name       = "Divya Dharsan"
-        self.location   = "Madurai / Chennai, Tamil Nadu 🇮🇳"
-        self.degree     = "BE in Computer Science — UCE Dindigul (2024)"
-        self.email      = "divyadharsan466@gmail.com"
-        self.phone      = "+91 9952152178"
+        self.name     = "Divya Dharsan"
+        self.location = "Madurai / Chennai, TN 🇮🇳"
+        self.degree   = "BE CSE — UCE Dindigul (2024)"
+        self.email    = "divyadharsan466@gmail.com"
+        self.phone    = "+91 9952152178"
 
         self.stack = [
             "Python", "HTML", "CSS", "SQL",
@@ -32,20 +34,33 @@ class DivyaDharsan:
         ]
 
         self.interests = [
-            "Technical Support", "OS & Networking",
-            "Troubleshooting", "Web Development"
+            "Technical Support",
+            "OS & Networking",
+            "Troubleshooting",
+            "Web Development",
         ]
 
-        self.fun_fact = "I debug websites the same way I debug life — one ticket at a time 🎫"
+        self.fun_fact = (
+            "I debug websites the same way "
+            "I debug life — one ticket at a time 🎫"
+        )
 
     def motto(self):
-        return "Support is not just a job — it's the art of making tech feel human. 🤝"
+        return (
+            "Support is not just a job — "
+            "it's the art of making tech feel human. 🤝"
+        )
 
 me = DivyaDharsan()
 print(me.motto())
 ```
 
-<br clear="right"/>
+</td>
+<td valign="middle" align="center" width="40%">
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="100%" alt="coding gif"/>
+</td>
+</tr>
+</table>
 
 ---
 
